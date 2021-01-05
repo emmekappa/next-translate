@@ -1,5 +1,5 @@
 {
-  "name": "next-translate",
+  "name": "@emmekappa/next-translate",
   "version": "1.0.1",
   "description": "Tiny and powerful i18n tools (Next plugin + API) to translate your Next.js pages.",
   "license": "MIT",
