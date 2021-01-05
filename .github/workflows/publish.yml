@@ -15,8 +15,7 @@ jobs:
           always-auth: true
           node-version: '12.x'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@emmekappa'
-      - run: yarn
+          #scope: '@emmekappa'
       - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
